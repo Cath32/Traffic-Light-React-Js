@@ -1,0 +1,36 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+body { background: #9999FF; color: black;}
+
+#trafficTop {
+   background-color: black;
+   width: 20px;
+   Height: 70px;
+   //margin-left: 0px;
+   
+
+}
+
+#container{ 
+    background-color: black;
+    width: 125px;
+    Height: 300px;
+    margin-left: -75px;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.light {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 45px;
+    margin-top: 5px;
+    cursor: pointer;
+    &.red {background-color: #FF0000;}
+    &.yellow {background-color: #FFFF00;}
+    &.green {background-color: #00FF00;}
+    &.selected {box-shadow: #F8FFCC 0px 0px 50px 20px;}
+}
